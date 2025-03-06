@@ -48,7 +48,6 @@ public class PracticePage {
         loginButton.click();
 
 
-
     }
 
 }
