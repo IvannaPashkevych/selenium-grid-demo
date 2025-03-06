@@ -29,7 +29,6 @@ public class StepDefs {
     @When("I fill the form with valid credentials")
     public void i_fill_the_form_with_valid_credentials() {
 
-        BrowserUtils.waitFor(3);
         practicePage.login();
 
         BrowserUtils.waitFor(5);
