@@ -26,9 +26,10 @@ public class StepDefs {
     public void i_clicked_page(String pageText) {
        practicePage.clickLink(pageText);
     }
-    @When("I fill the form with valid credentails")
-    public void i_fill_the_form_with_valid_credentails() {
+    @When("I fill the form with valid credentials")
+    public void i_fill_the_form_with_valid_credentials() {
 
+        BrowserUtils.waitFor(3);
         practicePage.login();
 
         BrowserUtils.waitFor(5);
